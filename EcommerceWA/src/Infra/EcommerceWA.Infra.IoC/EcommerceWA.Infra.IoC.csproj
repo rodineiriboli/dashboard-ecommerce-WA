@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\EcommerceWA.Application\EcommerceWA.Application.csproj" />
+    <ProjectReference Include="..\..\EcommerceWA.Domain\EcommerceWA.Domain.csproj" />
+    <ProjectReference Include="..\EcommerceWA.Infra.Data\EcommerceWA.Infra.Data.csproj" />
+  </ItemGroup>
+
+</Project>
