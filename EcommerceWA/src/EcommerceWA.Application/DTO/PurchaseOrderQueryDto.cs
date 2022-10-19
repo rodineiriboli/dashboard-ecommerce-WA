@@ -10,5 +10,6 @@ namespace EcommerceWA.Application.DTO
         public string OrderPurchaseAddress { get; set; }
         public string DeliveryTeamName { get; set; }
         public string DeliveryTeamVehiclePlate { get; set; }
+        public int Total { get; set; }
     }
 }

@@ -29,7 +29,9 @@ namespace EcommerceWA.Infra.Data.Repositories
                                            OrderPurchaseDeliveryDate = p.DeliveryDate,
                                            OrderPurchaseAddress = p.Address,
                                            DeliveryTeamName = d.Name,
-                                           DeliveryTeamVehiclePlate = d.VehiclePlate
+                                           DeliveryTeamVehiclePlate = d.VehiclePlate,
+                                           Total = (from p in context.PurchaseOrder
+                                                    join d in context.DeliveryTeam on p.DeliveryTeamId equals d.Id select p).Count()
                                        })
                                        .Skip(skip)
                                        .Take(take));
