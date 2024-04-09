@@ -1,5 +1,5 @@
 # Dashboard e-commerce WA
-  ## Projeto criado em processo de seleção na Work Anywhere.
+  ## Projeto de estudo
 
   ### Para rodar esse projeto:
   - Altere a conectionstring para seu ambiente de banco de dados local ([MariaDB](https://mariadb.org/))
